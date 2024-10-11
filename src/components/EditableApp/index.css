@@ -1,0 +1,61 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5d0fe;
+}
+.editable-app-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-size: 24px;
+}
+.input-container {
+  width: 300px;
+  font-family: roboto;
+}
+.saved-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 1px solid #cbd2d9;
+  outline: none;
+  color: #323f4b;
+}
+.save-btn {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.para {
+  font-size: 16px;
+  color: #cbd2d9;
+}
+.edit-btn {
+  background-color: #d946ef;
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 15px;
+}
